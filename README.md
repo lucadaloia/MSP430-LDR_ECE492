@@ -33,12 +33,6 @@ The system switches between three operating modes via Port 2 interrupts:
 ### 3. FRAM Optimization
 The code specifically manages the `LOCKLPM5` power-on state and utilizes the efficient memory architecture of the MSP430FR series to maintain state across power cycles where necessary.
 
-## 🚀 How to Use
-1. Import the project into **Code Composer Studio**.
-2. Connect your MSP430 via an XDS110 Debugger.
-3. Build and Flash to the target hardware.
-4. Use **SW3** to calibrate the baseline and **SW1/SW2** to toggle between sensing modes.
-
 ---
 **Author:** Luca  
 **Project Date:** May 2026  
