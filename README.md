@@ -30,10 +30,8 @@ The system switches between three operating modes via Port 2 interrupts:
 - **Mode 2:** Graduated response (LEDs light up sequentially based on intensity).
 - **Mode 3:** Environmental calibration and baseline setting.
 
-### 3. FRAM Optimization
-The code specifically manages the `LOCKLPM5` power-on state and utilizes the efficient memory architecture of the MSP430FR series to maintain state across power cycles where necessary.
 
 ---
-**Author:** Luca  
-**Project Date:** May 2026  
-**Course:** ECE 492 a
+**Author:** Luca Daloia  
+**Project Date:** Spring 2026  
+**Course:** ECE 492
